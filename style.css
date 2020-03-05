@@ -7,32 +7,44 @@
 .aBlock,.bBlock,.dBlock,.eBlock,.fBlock,.cBlock{
     border: solid 1px;
     text-align: center;
+    color: white;
     
 }
 .aBlock{
     grid-row: 1/3;
-    grid-column: 1/4;
+    grid-column: 1/3;
     background-color: turquoise;
 }
 .bBlock{
     grid-row: 1/3;
-    grid-column: 4/7;
+    grid-column: 3/5;
+    background-color: rgb(226, 137, 21);
 }
 .dBlock{
     grid-row:1/3;
-    grid-column: 7/10;
+    grid-column: 5/7;
+    background-color: purple;
 }
 .eBlock{
     grid-row: 3/5;
-    grid-column: 1/4;
+    grid-column: 1/3;
+    background-color: rgb(255, 0, 170);
 }
 .fBlock{
     grid-row: 5/7;
-    grid-column: 1/4;
+    grid-column: 1/3;
+    background-color:skyblue;
 
 }
 .cBlock{
     grid-row:3/7;
-    grid-column: 4/10;
+    grid-column: 3/7;
+    background-color: lime;
 
+}
+.boxAbtn{
+    background-color: brown;
+}
+.boxBbtn{
+    background-color: fuchsia;
 }
