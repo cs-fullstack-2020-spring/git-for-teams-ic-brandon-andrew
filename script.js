@@ -11,7 +11,7 @@ let changeDBtn = document.querySelector('#changeDBtn');
 
 //Create a function to change the color of Box A
 changeAColor = event => {
-    aBlock.classList.toggle('');//NOTE: add the class for this later
+    aBlock.classList.toggle('boxAbtn');//NOTE: add the class for this later
 }
 
 //add the above function to the changeABtn as an event
@@ -19,7 +19,7 @@ changeABtn.addEventListener('click',changeAColor);
 
 //Create a function to change the color of Box B
 changeBColor = event => {
-    bBlock.classList.toggle('');//NOTE: add the class for this later
+    bBlock.classList.toggle('boxBbtn');//NOTE: add the class for this later
 }
 
 //add the above function to the changeBBtn as an event
