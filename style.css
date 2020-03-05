@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 2px;
+}
+.aBlock,.bBlock,.dBlock,.eBlock,.fBlock,.cBlock{
+    border: solid 1px;
+    text-align: center;
+    
+}
